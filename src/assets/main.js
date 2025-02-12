@@ -1,4 +1,4 @@
-const API = 'https://youtube-v31.p.rapidapi.com/search?channelId=UCSJ4gkVC6NrvII8umztf0Ow&part=snippet%2Cid&order=date&maxResults=9';
+const API = 'https://youtube-v31.p.rapidapi.com/playlistItems?playlistId=PL6NdkXsPL07Il2hEQGcLI4dg_LTg7xA2L&part=snippet&maxResults=10';
 
 const content = null ?? document.getElementById('content');
 
@@ -22,18 +22,20 @@ async function fetchData(urlAPI) {
         let view = `
             ${videos.items.map(video => `
                 <div class="group relative">
-                    <div
-                        class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
-                        <img src="${video.snippet.thumbnails.high.url}" alt="${video.snippet.description}" class="w-full">
-                    </div>
+                    <a href="https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}" target="_blank">
+                        <div class="w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none">
+                            <img src="${video.snippet.thumbnails.high.url}" alt="${video.snippet.title}" class="w-full">
+                        </div>
+                    </a>
                     <div class="mt-4 flex justify-between">
                         <h3 class="text-sm text-gray-700">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            ${video.snippet.title}
+                            <a href="https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}" target="_blank" class="hover:underline">
+                                ${video.snippet.title}
+                            </a>
                         </h3>
                     </div>
                 </div>
-            `).slice(0,4).join('')}
+            `).slice(0,8).join('')}
         `;
         content.innerHTML = view;
     } catch (error) {
