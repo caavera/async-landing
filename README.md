@@ -1,4 +1,4 @@
-# Async Landing LOFI Girl
+# Landing Page LOFI Girl
 
 ![Project Logo](https://lofigirlshop.com/cdn/shop/files/LG_logo_logo_text_black_150x.png?v=1719224520)
 
