@@ -5,7 +5,6 @@
 > Proyecto para practicar asincronismo en JavaScript, utilizando `async/await`, consumo de APIs, y tecnologías web como HTML, Tailwind CSS y JavaScript.  
 > Se trata de una **landing page dinámica** que muestra los videos en vivo de un **canal de YouTube**, obteniendo la información en tiempo real desde la API de YouTube.
 
-
 ---
 
 🚀 **Enlace de la demo**: [Async Landing en GitHub Pages](#)
