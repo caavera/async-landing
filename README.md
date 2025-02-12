@@ -1,6 +1,6 @@
 # Async Landing
 
-![Project Logo](https://via.placeholder.com/150)
+![Project Logo](https://lofigirlshop.com/cdn/shop/files/LG_logo_logo_text_black_150x.png?v=1719224520)
 
 > Proyecto para practicar asincronismo en JavaScript, utilizando `async/await`, consumo de APIs, y tecnologías web como HTML, Tailwind CSS y JavaScript.
 
@@ -33,6 +33,7 @@
 ```bash
 git clone https://github.com/albertoBetancourt/async-landing.git
 cd async-landing
+```
 
 ### 2️⃣ Abrir el archivo `index.html`:
 
