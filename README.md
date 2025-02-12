@@ -1,8 +1,6 @@
 # Async Landing LOFI Girl
 
-| ![LOFI Girl Logo](https://lofigirlshop.com/cdn/shop/files/LG_logo_logo_text_black_150x.png?v=1719224520) |
-|:--:|
-| **LOFI Girl** |
+![Project Logo](https://lofigirlshop.com/cdn/shop/files/LG_logo_logo_text_black_150x.png?v=1719224520)
 
 > Proyecto para practicar asincronismo en JavaScript, utilizando `async/await`, consumo de APIs, y tecnologías web como HTML, Tailwind CSS y JavaScript.  
 > Se trata de una **landing page dinámica** que muestra los videos en vivo de un **canal de YouTube**, obteniendo la información en tiempo real desde la API de YouTube.
