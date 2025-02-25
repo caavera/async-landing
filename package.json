@@ -6,17 +6,17 @@
   "scripts": {
     "deploy": "gh-pages -d src"
   },
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/albertoBetancourt/async-landing.git"
+    "url": "git+https://github.com/caavera/async-landing.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/albertoBetancourt/async-landing/issues"
+    "url": "https://github.com/caavera/async-landing/issues"
   },
-  "homepage": "https://github.com/albertoBetancourt/async-landing#readme",
+  "homepage": "https://caavera.github.io/async-landing",
+  "license": "MIT",
+  "author": "Carlos Vera <veracar111@gmail.com>",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }

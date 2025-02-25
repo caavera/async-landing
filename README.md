@@ -7,7 +7,7 @@
 
 ---
 
-🚀 **Enlace de la demo**: [Async Landing en GitHub Pages](https://albertobetancourt.github.io/async-landing/)
+🚀 **Enlace de la demo**: [Async Landing en GitHub Pages](https://caavera.github.io/async-landing/)
 
 ## 📌 Tabla de Contenidos
 
